@@ -1,19 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Meta tags -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,300&display=swap"
       rel="stylesheet"
     />
+
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css" />
+
+    <!-- JavaScript -->
     <script src="index.js" defer></script>
+
+    <!-- Title -->
     <title>Tela de Login</title>
   </head>
   <body>
+    <!-- Toggle -->
     <div class="toggle">
       <div class="icon-toggle">
         <img
@@ -23,40 +33,53 @@
         />
       </div>
     </div>
+
+    <!-- Container -->
     <div class="container">
+      <!-- Title -->
       <h1 class="title">Create an account</h1>
+
+      <!-- Social Media -->
       <div class="social">
         <div class="social-media">
-          <a class="btn-social" id="btn-social" href="#"
+          <!-- Google Login -->
+          <a class="btn-social" href="#"
             ><img src="./src/Google - Original.png" alt="google-icon" />Google</a
           >
-          <a class="btn-social" id="btn-social" href="#"
+
+          <!-- Facebook Login -->
+          <a class="btn-social" href="#"
             ><img src="./src/Facebook - Original.png" alt="facebook-icon" />Facebook</a
           >
         </div>
         <p>or</p>
       </div>
 
+      <!-- Input Container -->
       <div class="container-input">
+        <!-- Email Input -->
         <div class="input-info">
           <label class="email label">Email</label>
           <input class="input" type="email" placeholder="Enter your email" required />
         </div>
+
+        <!-- Password Input -->
         <div class="input-info">
           <div class="info-label">
             <label class="password label">Password</label>
             <a class="forgot" href="#">Forgot ?</a>
           </div>
 
+          <!-- Password Field -->
           <div class="info-password">
             <input
               class="input"
               id="input-password"
               type="password"
               placeholder="Enter your password"
-              value="32645270"
               required
             />
+            <!-- Eye Icon to Toggle Password Visibility -->
             <img
               class="eye-close"
               id="eye-close"
@@ -75,10 +98,13 @@
             />
           </div>
         </div>
+
+        <!-- Login Button -->
         <button>Login now</button>
+
+        <!-- Footer -->
         <p class="footer">Don't have an account ?<a href="#"> Sing Up</a></p>
       </div>
     </div>
-    <div></div>
   </body>
 </html>
