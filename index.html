@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
+    <title>Tela de Login</title>
+  </head>
+  <body>
+    <div class="toggle">
+      <div class="icon-toggle">
+        <img
+          class="img-icon"
+          src="https://img.icons8.com/external-flaticons-flat-flat-icons/64/external-sun-100-most-used-icons-flaticons-flat-flat-icons-2.png"
+          alt="external-sun-100-most-used-icons-flaticons-flat-flat-icons-2"
+        />
+      </div>
+    </div>
+    <div class="container">
+      <h1 class="title">Create an account</h1>
+      <div class="social">
+        <div class="social-media">
+          <a class="btn-social" id="btn-social" href="#"
+            ><img src="./src/Google - Original.png" alt="google-icon" />Google</a
+          >
+          <a class="btn-social" id="btn-social" href="#"
+            ><img src="./src/Facebook - Original.png" alt="facebook-icon" />Facebook</a
+          >
+        </div>
+        <p>or</p>
+      </div>
+
+      <div class="container-input">
+        <div class="input-info">
+          <label class="email label">Email</label>
+          <input class="input" type="email" placeholder="Enter your email" required />
+        </div>
+        <div class="input-info">
+          <div class="info-label">
+            <label class="password label">Password</label>
+            <a class="forgot" href="#">Forgot ?</a>
+          </div>
+
+          <div class="info-password">
+            <input
+              class="input"
+              id="input-password"
+              type="password"
+              placeholder="Enter your password"
+              value="32645270"
+              required
+            />
+            <img
+              class="eye-close"
+              id="eye-close"
+              width="24"
+              height="24"
+              src="./src/olho-fechado.svg"
+              alt="visualizar senha"
+            />
+            <img
+              class="eye-open hidden"
+              id="eye-open"
+              width="24"
+              height="24"
+              src="./src/olho.svg"
+              alt="visualizar senha"
+            />
+          </div>
+        </div>
+        <button>Login now</button>
+        <p class="footer">Don't have an account ?<a href="#"> Sing Up</a></p>
+      </div>
+    </div>
+    <div></div>
+  </body>
+</html>
